@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(161, 170, 177);
+}
+
+header h1 {
+    font-family: serif;
+    font-size: 50px;
+    margin-left: 30%;
+}
+
+.imgt {
+    display: flex;
+    padding: 10px;
+}
+
+.imgt p {
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgt img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 20px;
+    text-decoration: none;
+    align-items: baseline;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.products {
+    display: grid;
+    overflow: hidden;
+}
+
+.products:hover {
+    transform: scale(1.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+.About {
+    width: 400px;
+    padding: 10px;
+    margin-left: 100px;
+    border: 2px solid;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.paragraph {
+    padding: 5px;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+video {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+#paragraph {
+    margin-left: 100px;
+    color: chartreuse;
+    font-size: larger;
+    font-style: italic;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.container {
+    width: 500px;
+    border: 2px solid green;
+    border-radius: 19px;
+    background-color: aquamarine;
+    margin-left: 100px;
+    width: 600px;
+}
+
+.table {
+    width: 900px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.container p {
+    padding: 10px;
+}
+
+.homebody {
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 2px solid blueviolet;
+    border-radius: 19px;
+    background-color: aqua;
+}
+
+.homebody p {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.homebody img {
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+.homebody:hover {
+    background-color: white;
+    color: red;
+}
+
+h2 {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: serif;
+    color: blue;
+}
+
+td img {
+    width: 200px;
+    height: 100px;
+}
+
+.productstable {
+    margin-left: 100px;
+}
+
+label {
+    display: inline-table;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#message {
+    width: 100px;
+}
+
+.blog {
+    width: 500px;
+    border: 2px solid blue;
+    color: rgb(236, 12, 106);
+    background-color: rgb(192, 251, 255);
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.blog p {
+    padding: 20px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics</title>
+    <link rel="stylesheet" href="/Assets/style.css">
+</head>
+
+<body style="background-color: blueviolet;">
+    <div class="banner">
+        <div class="imgt">
+            <img src="/Assets/Images/logo.electronic.webp" width="150" height="150"> </img>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT US</a></li>
+                <li><a href="Products.html">PRODUCTS</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="Location.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="About">
+        <p class="paragraph" style="font-size: medium;">Founded in 2005, Electronics World is a leading provider of high-quality electronic components and devices. Our mission is to provide cutting-edge technology solutions to our customers and become a leading player in the electronics industry. We
+            specialize in offering a wide range of products, including semiconductors, sensors, displays, and microcontrollers, to meet the diverse needs of our customers. Our team of experienced professionals brings together a wealth of knowledge and
+            expertise in the field of electronics, and we are committed to providing the best customer service and technical support to our clients. We have won several awards for our innovative products and outstanding customer service, and we are proud
+            to partner with leading companies in the industry. At Electronics World, we are also committed to social responsibility, and we actively participate in several initiatives to promote environmental sustainability and social well-being. </p>
+    </div>
+
+    <video controls width="350" height="200">
+            <source src="/Assets/Images/Our Brand.mp4" type="video/mp4">
+          </video>
+    <button onclick="toggleInfo()">Show More Info</button>
+    <div id="more-info" style="display: none;">
+
+        <p id="paragraph">Here is a vedio showing you more on what we supply and deal with in our shop.</p>
+        <video controls width="350" height="200">
+           
+            <source src="/Assets/Images/More video.mp4" type="video/mp4">
+          </video>
+
+    </div>
+    <script>
+        function toggleInfo() {
+            var x = document.getElementById("more-info");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
